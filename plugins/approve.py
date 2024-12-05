@@ -13,9 +13,9 @@ logger = logging.getLogger(__name__)
 
 # Configuration options (can be extended as needed)
 CONFIG = {
-    "bot_username": "REXIESCATBOT",
-    "main_channel_url": "https://t.me/mn_movies2",
-    "ott_updates_channel_url": "https://t.me/new_ott_movies3",
+    "bot_username": "Ivar",
+    "main_channel_url": "https://t.me/moviesclubz77",
+    "ott_updates_channel_url": "https://t.me/+yvxJ0OnUUDs3NzRl",
     "photo_url": "https://i.ibb.co/Q9Hm3Dg/175540848.jpg",  # Replace with your actual image URL
     "welcome_message": "**{greeting} {name} 👻\n\nWelcome to {chat_name}! Your request has been approved.\n\nSend /start to know more.**",
     "greeting_messages": {
@@ -48,7 +48,7 @@ async def accept_request(client, r):
             [
                 InlineKeyboardButton('OTT Updates', url=CONFIG["ott_updates_channel_url"]),
                 InlineKeyboardButton('Main Channel', url=CONFIG["main_channel_url"]),
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/bfire123/ShobanaFilterBot')
             ]
         ])
 

@@ -25,7 +25,7 @@ async def start(client, message):
               [
                   InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/moviesclubz77'),
                   InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+yvxJ0OnUUDs3NzRl'),
-                  InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+                  InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/bfire123/ShobanaFilterBot')
          ]
         
             ]
@@ -53,7 +53,7 @@ async def start(client, message):
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         #add emoji loading then run 1 sec and dlt
-        m=await message.reply_text("ShobanaFilterBot") 
+        m=await message.reply_text("ivar") 
         await asyncio.sleep(1.2)#1.2sec sleep
         await m.delete()
         await message.reply_photo(
@@ -100,7 +100,7 @@ async def start(client, message):
         ],[
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/moviesclubz77'),
              InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+yvxJ0OnUUDs3NzRl'),
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/bfire123/ShobanaFilterBot')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

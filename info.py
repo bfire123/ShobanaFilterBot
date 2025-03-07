@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16767636'))
 API_HASH = environ.get('API_HASH', 'adfd92666a3cce231cf750514a57920d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5575184703:AAGvsS71905a_2dJPvBFxyLOIGX2QNY7III')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5908896129:AAHWWRlwlL9Guv-ny98LwvrXSkI16vNHXUQ')
 
 # Bot settings
 BOT_START_TIME = time()
@@ -35,9 +35,9 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL','-1001382206171')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iver:iver@cluster0.8kjwlcg.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Iver")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://daisydaisy1332:obFFBLJfk1vV8zPc@cluster0.tk9po.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "daisydaisy1332")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'andi')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001524483029'))
